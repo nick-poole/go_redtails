@@ -6,6 +6,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Schedule</title>
   </head>
+
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+
   <body>
     <header>
         <nav>
@@ -21,17 +29,20 @@
     <main>
         <h2>Preseason</h2>
           <table width="90%">
+            <thead>
               <tr>
                   <th>Week</th>                
                   <th>Date</th>                
                   <th>Time</th>
                   <th>Advantage</th>
-              <!--<th></th>-->
+                  <th></th>
                   <th>Opponent</th>
                   <th>Location</th>
                   <th>Result</th>                
               </tr>
+            </thead>
 
+            <tbody>
               <tr>
                 <td>Preseason Week 1</td>
                 <td>Sat 08/13</td>
@@ -41,9 +52,9 @@
                 <td></td>
                 <td></td>
                 <td>TBD</td>
-            </tr> 
-
-            <tr>
+              </tr> 
+  
+              <tr>
                 <td>Preseason Week 2</td>
                 <td>Sat 08/20</td>
                 <td>4:00 P.M. EDT</td>
@@ -52,9 +63,9 @@
                 <td></td>
                 <td></td>
                 <td>TBD</td>
-            </tr> 
-
-            <tr>
+              </tr> 
+  
+              <tr>
                 <td>Preseason Week 3</td>
                 <td>Sat 08/27</td>
                 <td>7:00 P.M. EDT</td>
@@ -63,22 +74,32 @@
                 <td></td>
                 <td></td>
                 <td>TBD</td>
-            </tr>   
+              </tr>   
+            </tbody>
           </table>
 
         <hr>
          <h2>Regular Season</h2>
           <table width="100%">
+            <thead>
               <tr>
-                  <th>Week</th>                
-                  <th>Date</th>                
-                  <th>Time</th>
-                  <th>Advantage</th>
-              <!--<th></th>-->
-                  <th>Opponent</th>
-                  <th>Location</th>
-                  <th>Result</th>                
+                  <th rowspan="2">Week</th>                
+                  <th rowspan="2">Date</th>                
+                  <th rowspan="2">Time</th>
+                  <th colspan="4">Opponent</th>
+                  <th rowspan="2">Result</th>                
               </tr>
+              
+              <tr>
+                <th>Advantage</th>
+                <th>#</th>
+                <th>Team</th>
+                <th>Location</th>
+              </tr>
+              
+            </thead>
+
+            <tbody>
                  <tr>
                      <td>Week 1</td>
                      <td>Sun 09/11</td>                 
@@ -106,8 +127,8 @@
                     <td>Sun 9/25</td>
                     <td>1:00 P.M. EDT</td>
                     <td>VS</td>
-                    <td>#</td>
-                    <td></td>
+                    <td><img style="display:block;" width="15%" height="15%" src="/home/nick/GIT/go_redtails/images/Okalahoma_City_large.webp"></td>
+                    <td>Oklahoma City</td>
                     <td></td>
                     <td>TBD</td>
                 </tr> 
@@ -276,7 +297,7 @@
                     <td></td>
                     <td>TBD</td>
                 </tr> 
-
+            </tbody>
           </table>
     </main>
       
