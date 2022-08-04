@@ -1,14 +1,16 @@
 # go_redtails
 
-First created webpage for a mock football team website project for the fictional Washington Redtails
+Mock football team website for the fictional Washington Redtails.
 
-Following along with Colt Steele's Web Developer bootcamp - Section 5 HTML Forms & Tables.
+Following along with Colt Steele's Web Developer Bootcamp - Section 5 HTML Forms & Tables.
 
 TC Williams data taken from http://www.71originaltitans.com/players1.html
 
 
-8/03 - Added team regular and preseason Schedule.
+08/03 - Added team regular and preseason Schedule.
+
+08/04 - Created Contact Us Page with form!
 
 
-Future additions include: Contact Us, News, Careers, Injury report, season ticket inquiry, and Privacy policy. 
+Future additions include: Home, News, Careers, Injury report, Season ticket inquiry, and Privacy policy. 
 
