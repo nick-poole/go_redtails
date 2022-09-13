@@ -1,0 +1,57 @@
+
+
+* {
+
+}
+
+
+.loss-red {
+    color: red;
+}
+.win-green {
+    color: green;
+}
+
+
+html,
+body {
+    min-height: 100vh;
+} 
+
+body {
+	margin: 0;
+	background: #ffb612;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.schedule {
+    margin: 300px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.pre-container,
+.reg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.pre-container {
+    margin-bottom: 100px; 
+}
+
+.reg-container {
+    margin-top: 100px;
+}
+
+
+td img {
+    min-width: 75%;
+    min-height: 75%; 
+}

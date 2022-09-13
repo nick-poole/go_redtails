@@ -17,7 +17,7 @@ nav {
 }
 
 label.logo {
-    line-height: 100px;
+    line-height: 300px;
     padding: 0 100px;
 }
 nav ul {
@@ -37,4 +37,3 @@ nav ul li a {
     padding: 50px 50px;
     border-radius: 3px;
 }
-

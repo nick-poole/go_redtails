@@ -6,15 +6,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Schedule</title>
       <link rel="stylesheet" type="text/css" href="./styles/app.css">
+      <link rel="stylesheet" type="text/css" href="./styles/schedule.css">
   </head>
-  <!--REMOVE THIS STYLING-->
-  <style>
-    table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-  </style>
-
+ 
   <body>
     <header>
         <nav>
@@ -34,7 +28,8 @@
     <main>
       <h1>Team Schedule</h1>
         <h2>Preseason</h2>
-          <table width="90%">
+         <div class="pre-container">
+          <table class="schedule" width="90%">
             <thead>
               <tr>
                   <th>Week</th>                
@@ -54,10 +49,10 @@
                 <td>Sat 08/13</td>
                 <td>1:00 P.M. EDT</td>
                 <td>VS</td>
-                <td>#</td>
-                <td>Columbus Coyotes</td>
+                <td><img style="display:block;" width="15%" height="15%" src="./images/Cleveland_large.webp"></td>
+                <td>Cleveland Coyotes</td>
                 <td>AWCU Stadium</td>
-                <td>TBD</td>
+                <td><span class="loss-red">L</span> 23-21</td>
               </tr> 
   
               <tr>
@@ -65,10 +60,10 @@
                 <td>Sat 08/20</td>
                 <td>4:00 P.M. EDT</td>
                 <td>AT</td>
-                <td>#</td>
+                <td><img style="display:block;" width="15%" height="15%" src="./images/Louisiana_large.webp"></td>
                 <td>Lousiana Gators</td>
                 <td></td>
-                <td>TBD</td>
+                <td><span class="win-green">W</span>24-7</td>
               </tr> 
   
               <tr>
@@ -76,17 +71,18 @@
                 <td>Sat 08/27</td>
                 <td>7:00 P.M. EDT</td>
                 <td>VS</td>
-                <td>#</td>
+                <td><img style="display:block;" width="15%" height="15%" src="./images/Chicago_large.webp"></td>
                 <td>Chicago Lakehawks</td>
                 <td>AWCU Stadium</td>
-                <td>TBD</td>
+                <td><span class="loss-red">L</span> 17-15</td>
               </tr>   
             </tbody>
           </table>
-
-        <hr>
+         </div>
+         <!--
          <h2>Regular Season</h2>
-          <table width="100%">
+          <div class="reg-container">
+          <table class="schedule" width="100%">
             <thead>
               <tr>
                   <th rowspan="2">Week</th>                
@@ -111,10 +107,10 @@
                      <td>Sun 09/11</td>                 
                      <td>1:00 P.M. EDT</td>                 
                      <td>VS</td>
-                     <td>#</td>
+                     <td><img style="display:block;" width="15%" height="15%" src="./images/Miami_large.webp"></td>
                      <td>Miami Warriors</td>
                      <td>AWCU Stadium</td>
-                     <td>TBD</td> 
+                     <td><span class="win-green">W</span> 28 - 22</td> 
                  </tr> 
 
                  <tr>
@@ -122,7 +118,7 @@
                      <td>Sun 9/18</td>
                      <td>1:00 P.M. EDT</td>
                      <td>AT </td>
-                     <td>#</td>
+                     <td><img style="display:block;" width="15%" height="15%" src="./images/Detroit_large.webp"></td>
                      <td>Detroit Firebirds</td>
                      <td></td>
                      <td>TBD</td>
@@ -133,7 +129,7 @@
                     <td>Sun 9/25</td>
                     <td>1:00 P.M. EDT</td>
                     <td>VS</td>
-                    <td><img style="display:block;" width="15%" height="15%" src="/home/nick/GIT/go_redtails/images/Okalahoma_City_large.webp"></td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Okalahoma_City_large.webp"></td>
                     <td>Oklahoma City</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
@@ -144,8 +140,8 @@
                     <td>Sun 10/02</td>
                     <td>1:00 P.M. EDT</td>
                     <td>VS</td>
-                    <td>#</td>
-                    <td>Dallas Devilcats</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Dallas_large.webp"></td>
+                    <td>Dallas Stampede</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
                 </tr> 
@@ -166,7 +162,7 @@
                     <td>Thu 10/13</td>
                     <td>8:15 P.M. EDT</td>
                     <td>AT </td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Houston_large.webp"></td>
                     <td>Houston Bombers</td>
                     <td></td>
                     <td>TBD</td>
@@ -177,7 +173,7 @@
                     <td>Sun 10/23</td>
                     <td>1:00 P.M. EDT</td>
                     <td>VS</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/KansasCity_large.webp"></td>
                     <td>Kansas City Wranglers</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
@@ -188,7 +184,7 @@
                     <td>Sun 10/30</td>
                     <td>4:25 P.M. EDT</td>
                     <td>AT</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/mustangs.png"></td>
                     <td>St. Louis Mustangs</td>
                     <td></td>
                     <td>TBD</td>
@@ -210,7 +206,7 @@
                     <td>Mon 11/14</td>
                     <td>8:15 P.M. EST</td>
                     <td>AT</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Los_Angeles_large.webp"></td>
                     <td>Los Angeles Tide</td>
                     <td></td>
                     <td>TBD</td>
@@ -221,7 +217,7 @@
                     <td>Sun 11/20</td>
                     <td>1:00 P.M. EST</td>
                     <td>AT</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Las_Vegas_large.webp"></td>
                     <td>Las Vegas Outlaws</td>
                     <td></td>
                     <td>TBD</td>
@@ -232,7 +228,7 @@
                     <td>Sun 11/27</td>
                     <td>1:00 P.M. EST</td>
                     <td>VS</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/Orlando_large.webp"></td>
                     <td>Orlando Rockets</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
@@ -276,7 +272,7 @@
                     <td>Sat 12/24</td>
                     <td>4:05 P.M. EST</td>
                     <td>AT</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/San_Fran_large.webp"></td>
                     <td>San Francisco Sharks</td>
                     <td></td>
                     <td>TBD</td>
@@ -287,7 +283,7 @@
                     <td>Sun 1/01</td>
                     <td>1:00 P.M. EST</td>
                     <td>VS</td>
-                    <td>#</td>
+                    <td></td>
                     <td>Mexico City Jaguars</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
@@ -298,13 +294,15 @@
                     <td>TBD</td>
                     <td>TBD</td>
                     <td>VS</td>
-                    <td>#</td>
+                    <td><img style="display:block;" width="15%" height="15%" src="./images/ArizonaHeat_large.webp"></td>
                     <td>Arizona Heat</td>
                     <td>AWCU Stadium</td>
                     <td>TBD</td>
                 </tr> 
             </tbody>
           </table>
+          </div>
+        -->
     </main>
       
   </body>
