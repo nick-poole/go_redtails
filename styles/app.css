@@ -1,39 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 * {
-
-}
-nav {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
-    font-family: sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+li, a, button {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 30px 10%;
+    background-color: #400512ff;
+}
+.logo {
+    cursor: pointer;
 }
 
 nav {
-    background: #400512ff;
-    height: 200px;
-    width: 100%;
+    display: flex;
+    width: 800px;
+    
+    border: 3px dashed yellow; 
+}
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: inherit;
+
+    border: 1px solid turquoise;
+}
+.nav_links li {
+    display: inline-block;
+
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #ffb612;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(255, 184, 18, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(255, 184, 18, 0.8);
 }
 
-label.logo {
-    line-height: 300px;
-    padding: 0 100px;
+main {
+    background-color: #ffb612;
 }
-nav ul {
-    float: right;
-    margin-right: 20px;
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    color:#ffb612;
+    background-color: #400512ff;
 }
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a {
-    color: white;
-    font-size: 17px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 50px 50px;
-    border-radius: 3px;
-}
+
+
