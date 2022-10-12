@@ -23,7 +23,10 @@ header {
     background-color: #400512ff;
 }
 .logo {
+    height: 200px;
+    width: 300px;
     cursor: pointer;
+    
 }
 
 nav {
@@ -64,7 +67,31 @@ button:hover {
 
 main {
     background-color: #ffb612;
+    border: 5px solid purple;
 }
+
+.table-striped {
+    
+}
+.season_tickets {
+    border: 3px dashed white;
+    width: 80%;
+    height: 1000px;
+    margin: 32px auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.form {
+
+}
+.season_tickets_footer {
+
+}
+
 
 footer {
     display: flex;

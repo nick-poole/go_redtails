@@ -1,12 +1,97 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    border: 10px solid green;
+    height: auto;
+    width: auto;
+	margin: 10px auto;
+    padding: 0 0;
+	background: #ffb612;
+	font-family: 'Allerta Stencil',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+header {
+    background-color: #400512ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: ;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+nav {
+    /* border: 3px dashed white; */
+    height: 100%;
+    width: 70%;
+    margin: ;
+    padding: ;
+   
+}
+.nav_links {
+    /* border: 3px solid pink; */
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_links li {
 
 }
+.nav_links li a {
+    text-decoration: none;
+    color: white;
+}
+.nav_links li a:hover {
+    color: #ffb612;
+    text-decoration: overline;
+    transition: .4s ease-in;
+}
+button {
+    background-color: #ffb612;
+    color:#400512ff;
+    /* border: 1px dashed white; */
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+button:hover {
+    background-color: white;
+    color: #400512ff;
+    transition: .2s ease-in;
+}
+
+
+
+
 h1,
 h2 {
-    display: block;
     border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    /* border: 5px dashed white; */
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .loss-red {
@@ -16,21 +101,8 @@ h2 {
     color: green;
 }
 
-
-html,
-body {
-    min-height: 100vh;
-} 
-
-body {
-	margin: 0;
-	background: #ffb612;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-}
-
 .schedule {
-    margin: 300px;
+    margin: 0 auto;
 }
 
 
@@ -38,14 +110,14 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
-.pre-container,
+/* .pre-container,
 .reg-container {
-    position: absolute;
+    position: ;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
-}
+} */
 .pre-container {
     margin-bottom: 100px; 
 }
@@ -58,4 +130,7 @@ table, th, td {
 td img {
     min-width: 75%;
     min-height: 75%; 
+}
+footer {
+
 }
