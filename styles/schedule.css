@@ -72,13 +72,15 @@ button {
     padding: 8px 16px;
 }
 button:hover {
-    background-color: white;
+    background-color: whitesmoke;
     color: #400512ff;
     transition: .2s ease-in;
 }
 
 h1,
 h2 {
+    font-size: 40px;
+    color: #400512ff;
     border: 1px solid black;
     display: block;
     margin: 0 auto;
@@ -104,6 +106,8 @@ main {
 
 
 table, th, td {
+
+    background-color: white;
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -125,9 +129,13 @@ table, th, td {
 
 
 td img {
-    min-width: 75%;
-    min-height: 75%; 
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 80%;
+    min-height: 80%; 
 }
+
+
 footer {
 
 }
